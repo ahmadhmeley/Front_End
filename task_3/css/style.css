@@ -40,7 +40,17 @@
 
 }
 
+.one:hover {
+    
+  width: 600px;
+  height: 647px;
+  background-color: #d6c186;
+  position: relative;
+  border-radius: 19.1px;
+  
+  
 
+}
 .image1 {
    margin-top: 60px;
    width: 500px;
@@ -76,6 +86,9 @@
     margin-left: 40px;
     
 }
+
+
+
 
 .box1 ,.box2 , .box3 {
     margin-top: 10px;
@@ -178,4 +191,32 @@
   margin-left: 15px;
   line-height: 1.8;
   color: rgb(0, 0, 0);
+   }
+
+
+
+
+   .box4:hover {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #8f5a2c;
+    margin-left: 726px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
+   }
+
+
+   .box5:hover {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #6ca4ac;
+    margin-left: 1071px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
    }
